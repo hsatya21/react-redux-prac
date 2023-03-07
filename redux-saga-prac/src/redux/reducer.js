@@ -7,11 +7,8 @@ export const cartData = (data = [], action) => {
       return [action.data, ...data];
     case REMOVE_FROM_CART:
       console.log("REMOVE_FROM_CART called", action);
-      // eslint-disable-next-line no-unused-expressions
-      data.length = data.length ? data.length - 1 : [];
-      return [...data];
-    // data = data.filter((item) => item.name !== action.data);
-    // return data;
+      data = data.filter((item) => item.id !== action.data);
+      return data;
     case EMPTY_CART:
       console.log("EMPTY_CART called", action);
       data = [];

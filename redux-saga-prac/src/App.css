@@ -12,6 +12,12 @@
   background-color: orange;
   height: 100px;
 }
+.logo {
+  float: left;
+  margin: 0;
+  padding: 20px;
+}
+
 .cart-div {
   float: right;
   margin: 25px;
@@ -32,6 +38,18 @@
   right: 0;
 }
 /* header style  */
+
+/* Product UI */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-item {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+}
+/* End of Product UI */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
