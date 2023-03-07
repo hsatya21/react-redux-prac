@@ -1,0 +1,40 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Nokia 6600 5G",
+      "type": "Mobile",
+      "price": 20000,
+      "color": "blue",
+      "brand": "Nokia",
+      "photo": "https://hindi.cdn.zeenews.com/hindi/sites/default/files/styles/zm_700x400/public/2023/01/26/1557264-22691.jpg?itok=U5iTE8q2"
+    },
+    {
+      "id": 2,
+      "name": "Nokia G21",
+      "type": "Mobile",
+      "price": 13599,
+      "color": "green",
+      "brand": "Nokia",
+      "photo": "https://m.media-amazon.com/images/I/71rnnHb6rXL._SX679_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Motorola Edge 20 Fusion",
+      "type": "Mobile",
+      "price": 24999,
+      "color": "black",
+      "brand": "Motorola",
+      "photo": "https://img5.gadgetsnow.com/gd/images/products/additional/large/G296486_View_1/mobiles/smartphones/motorola-edge-20-fusion-128-gb-electric-graphite-6-gb-ram-.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Oppo A78 5G",
+      "type": "Mobile",
+      "price": 18999,
+      "color": "glowing blue",
+      "brand": "Oppo",
+      "photo": "https://m.media-amazon.com/images/I/8104evx11QL._SX679_.jpg"
+    }
+  ]
+}
