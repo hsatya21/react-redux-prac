@@ -2,7 +2,6 @@ import "../App.css";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 // import { cartData } from "../redux/reducer";
-// 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
 
 const Header = () => {
   const result = useSelector((state) => state.cartData);
