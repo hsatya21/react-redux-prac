@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const result = useSelector((state) => state.cartData);
   console.log("Redux data in header:", result);
-  const hello =
-    "## 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 ##";
   return (
     <div className="header">
       <Link to="/">
